@@ -298,7 +298,7 @@ public:
 	int Test();
 };
 void TestDate::SetUp() {
-	ifstream file("PhoneBook.txt"); // путь к файлу PhoneBook.txt
+	ifstream file("PhoneBook.txt"); 
 	phone_book = new PhoneBook(file);
 }
 
@@ -323,7 +323,7 @@ int main()
 
 	cout << "\nЗадание 1 (1,2,3)\n" << endl;
 
-	ifstream file("pb.txt"); 
+	ifstream file("PhoneBook.txt"); 
 	PhoneBook phone_book(file);
 	cout << phone_book;
 
