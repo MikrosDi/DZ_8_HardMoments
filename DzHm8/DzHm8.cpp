@@ -12,7 +12,9 @@
 
 using namespace std;
 
+
 //Task 1
+
 
 struct Person {
 	string last_name;
@@ -45,7 +47,9 @@ ostream& operator<<(ostream& out, const Person& person) {
 	return out;
 }
 
+
 //Task 2
+
 
 class PhoneNumber {
 protected:
@@ -94,7 +98,9 @@ bool operator<(const PhoneNumber& num1, const PhoneNumber& num2) {
 		tie(num2.country_code, num2.city_code, num2.number, num2.add_number);
 }
 
+
 //Task 3
+
 
 class PhoneBook {
 protected:
@@ -201,7 +207,9 @@ ostream& operator<<(ostream& out, PhoneBook& book) {
 	return out;
 }
 
+
 /*DZ8-Test*/
+
 
 namespace testing {
 
