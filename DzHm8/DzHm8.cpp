@@ -323,7 +323,7 @@ int main()
 
 	cout << "\nЗадание 1 (1,2,3)\n" << endl;
 
-	ifstream file("pb.txt"); // путь к файлу PhoneBook.txt
+	ifstream file("pb.txt"); 
 	PhoneBook phone_book(file);
 	cout << phone_book;
 
